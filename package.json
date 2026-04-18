@@ -2,6 +2,11 @@
   "name": "deql-editor",
   "type": "module",
   "version": "0.0.1",
+  "private": true,
+  "packageManager": "yarn@4.14.1",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -16,6 +21,7 @@
     "@codemirror/state": "^6.0.0",
     "@codemirror/theme-one-dark": "^6.0.0",
     "@codemirror/view": "^6.0.0",
+    "@deql-lang/core": "workspace:*",
     "@xyflow/svelte": "^1.5.2",
     "astro": "^6.1.7",
     "chevrotain": "^11.0.0",

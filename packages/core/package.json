@@ -1,0 +1,33 @@
+{
+  "name": "@deql-lang/core",
+  "version": "0.1.0",
+  "description": "DeQL parser, graph builder, and layout engine",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepack": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/deql-lang/deql-editor.git",
+    "directory": "packages/core"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chevrotain": "^11.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
