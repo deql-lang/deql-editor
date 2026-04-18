@@ -1,0 +1,30 @@
+{
+  "name": "deql-editor",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "^8.0.5",
+    "@codemirror/commands": "^6.0.0",
+    "@codemirror/lang-sql": "^6.0.0",
+    "@codemirror/language": "^6.0.0",
+    "@codemirror/lint": "^6.0.0",
+    "@codemirror/state": "^6.0.0",
+    "@codemirror/theme-one-dark": "^6.0.0",
+    "@codemirror/view": "^6.0.0",
+    "@xyflow/svelte": "^1.5.2",
+    "astro": "^6.1.7",
+    "chevrotain": "^11.0.0",
+    "codemirror": "^6.0.0",
+    "elkjs": "^0.9.0",
+    "prismjs": "^1.29.0",
+    "svelte": "^5.55.4"
+  },
+  "devDependencies": {
+    "@types/prismjs": "^1.26.0"
+  }
+}

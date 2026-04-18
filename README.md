@@ -1,2 +1,2 @@
 # deql-editor
-Visual editor for DeQL language. 
+Admin ui for editing and visualizing DeQL 
